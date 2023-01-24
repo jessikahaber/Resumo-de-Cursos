@@ -1,10 +1,11 @@
-git status + enter = verifica se há algum arquivo novo pendente de commit, se houver aparecer escrito em vermelho, seguir as instruções a baixo.
+git status + enter = verifica se há algum arquivo novo pendente de commit, se houver irá aparecer escrito em vermelho, seguir as instruções a baixo.
 
 git add . + enter = passa o arquivo escrito em vermelho para verde. você pode  verificar isso repetindo o comando de "git status + enter."
+Isso significa que o arquivo esta pronto para ser comitado localmente.
 
 git commit -m "Inclusão das instruções de como realizar um Commit do repositorio local para o GitHub" + enter = isso irá dar um commit local, 
-para que ele seja encaminhado ao github siga as instruções abaixo. Atenção, após essa etapa o arquivo que estava em verde não deve mais ficar
-nessa cor, tudo deve estar pronto para ser passado para a nuvem.
+para que ele seja encaminhado ao github siga as instruções abaixo. Atenção: após essa etapa o arquivo que estava em verde não deve mais ficar
+nessa cor, tudo deve estar pronto para ser passado para a nuvem (github).
 
 git push origin main + enter = passar todos os arquivos que eu dei um commit localmente, para a nuvem (github).
 
