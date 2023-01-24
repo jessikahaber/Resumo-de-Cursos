@@ -1,0 +1,2 @@
+git status + enter = verifica se há algum arquivo novo pendente de commit, se houver, seguir as instruções a baixo.
+git add . + enter
