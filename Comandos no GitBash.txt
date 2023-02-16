@@ -8,6 +8,8 @@ git commit -m "Inclusão das instruções de como realizar um Commit do reposito
 para que ele seja encaminhado ao github siga as instruções abaixo. Atenção: após essa etapa o arquivo que estava em verde não deve mais ficar
 nessa cor, tudo deve estar pronto para ser passado para a nuvem (github).
 
+git pull + enter = atualizar a versão local de um repositório a partir de uma versão remota.
+
 git push origin main + enter = passar todos os arquivos que eu dei um commit localmente, para a nuvem (github).
 
 CRIANDO UM NOVO REPOSITÓRIO NA LINHA DE COMANDO:
