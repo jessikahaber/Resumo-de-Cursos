@@ -9,3 +9,17 @@ nessa cor, tudo deve estar pronto para ser passado para a nuvem (github).
 
 git push origin main + enter = passar todos os arquivos que eu dei um commit localmente, para a nuvem (github).
 
+CRIANDO UM NOVO REPOSITÓRIO NA LINHA DE COMANDO:
+echo "# teste" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jessikahaber/teste.git
+git push -u origin main
+
+push an existing repository from the command line:
+git remote add origin https://github.com/jessikahaber/teste.git
+git branch -M main
+git push -u origin main
+
