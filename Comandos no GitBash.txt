@@ -1,3 +1,4 @@
+REALIZANDO COMMIT LOCAL E DEPOIS PARA A NUVEM NO GITHUB:
 git status + enter = verifica se há algum arquivo novo pendente de commit, se houver irá aparecer escrito em vermelho, seguir as instruções a baixo.
 
 git add . + enter = passa o arquivo escrito em vermelho para verde. você pode  verificar isso repetindo o comando de "git status + enter."
@@ -18,7 +19,7 @@ git branch -M main
 git remote add origin https://github.com/jessikahaber/teste.git
 git push -u origin main
 
-push an existing repository from the command line:
+push UM REPOSITÓRIO EXISTENTE DA LINHA DE COMANDO:
 git remote add origin https://github.com/jessikahaber/teste.git
 git branch -M main
 git push -u origin main
