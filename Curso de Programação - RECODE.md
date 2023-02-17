@@ -37,5 +37,5 @@ Estrutura principal (modo de preparo): contém instruções que devem ser execut
 
 **diferentes formas de escrever um algoritmo computacional:**
 
-(…)
+(….)
 ****
