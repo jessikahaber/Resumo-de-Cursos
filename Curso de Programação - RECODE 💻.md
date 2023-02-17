@@ -19,4 +19,4 @@ Resumo do curso de Programação ofertado pela RECODE.
 
 **Conceito de Lógica Booleana**: A lógica booleana incluiu também as negações, as afirmações conjuntas e as  afirmações opcionais. Além da negação **(NÃO)**, as demais postulações da lógica booleana nos trazem os conceitos de afirmações conjuntas **(E)**, e as afirmações opcionais **(OU)**, ****classificando seus resultados como **VERDADEIRO**  ou **FALSO.**
 
-![logica booleana.png](Curso%20de%20Programac%CC%A7a%CC%83o%20-%20RECODE%20%F0%9F%92%BB%20d8522a8e2214403d9934ae882b94886b/logica_booleana.png)
+![logica booleana.png](https://github.com/jessikahaber/Resumo-de-Cursos-e-Dicas/blob/5859ab791821ad8bac2b18507e02cde26c2b9b78/Curso%20de%20Programa%C3%A7%C3%A3o%20-%20RECODE%20%F0%9F%92%BB%20d8522a8e2214403d9934ae882b94886b/logica_booleana.png)
