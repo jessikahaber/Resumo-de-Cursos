@@ -44,7 +44,7 @@ Estrutura principal (modo de preparo): contém instruções que devem ser execut
 
 1️⃣ **Linguagem Compilada**: Perceba que o hardware fala apenas a linguagem de máquina, portanto, quanto mais alto o nível da linguagem de programação, mais traduções são necessárias para converter os comandos de alto nível em linguagem de máquina. As linguagens compiladas estão ainda presas na arquitetura de hardware do computador, pois, seu funcionamento depende de para qual sistema operacional está sendo compilado (Windows, Linux ou Mac). Por exemplo, a Calculadora do Windows (calc.exe) não funciona em nenhum outro sistema operacional diferente deste, pois foi construída e compilada para a arquitetura da pirâmide da qual faz parte.
 
-![niveis das linguagens.jpg](Curso%20de%20Programac%CC%A7a%CC%83o%20-%20RECODE%20%F0%9F%92%BB%20d8522a8e2214403d9934ae882b94886b/niveis_das_linguagens.jpg)
+![niveis das linguagens.jpg](https://github.com/jessikahaber/Resumo-de-Cursos-e-Dicas/blob/main/Banco%20de%20imagens/Curso%20de%20Programa%C3%A7%C3%A3o%20-%20RECODE/niveis%20das%20linguagens.jpg)
 
 Fonte: Adaptado de Fonte: [www.dsc.ufgc.edu.br](http://www.dsc.ufgc.edu.br/)
 
