@@ -15,7 +15,7 @@ Resumo do curso de Programação ofertado pela RECODE.
 
 **Conceito de Lógica de Programação**: É possível dizer que é uma sequência de passos de raciocínio lógico que temos que seguir até encontrar a resposta.
 
-**Conceito de Lógica Booleana**: A lógica booleana incluiu também as negações, as afirmações conjuntas e as  afirmações opcionais. Além da negação **(NÃO/NO)**, as demais postulações da lógica booleana nos trazem os conceitos de afirmações conjuntas **(E/AND)**, e as afirmações opcionais **(OU/OR)**, ****classificando seus resultados como **VERDADEIRO/TRUE**  ou **FALSO/FALSE.**
+**Conceito de Lógica Booleana**: A lógica booleana incluiu também as negações, as afirmações conjuntas e as  afirmações opcionais. Além da negação **(NÃO/NO)**, as demais postulações da lógica booleana nos trazem os conceitos de afirmações conjuntas **(E/AND)**, e as afirmações opcionais **(OU/OR)**, classificando seus resultados como **VERDADEIRO/TRUE**  ou **FALSO/FALSE.**
 
 ![logica booleana.png](https://github.com/jessikahaber/Resumo-de-Cursos-e-Dicas/blob/5859ab791821ad8bac2b18507e02cde26c2b9b78/Curso%20de%20Programa%C3%A7%C3%A3o%20-%20RECODE%20%F0%9F%92%BB%20d8522a8e2214403d9934ae882b94886b/logica_booleana.png)
 
@@ -74,10 +74,10 @@ Exemplo2: Já as linguagens de alto nível, como o **Fortran** ou **C**, prec
 
 4️⃣ **Prototipagem:** Na área de **construção de sistemas**, antes de iniciar a **programação de um projeto**, usamos recursos para criar “**plantas**” e “**maquetes**” para  averiguar como o sistema vai ficar, antes de colocar a mão na massa. A criação de protótipos traz muitos pontos positivos, como o ganho de produtividade e agilidade na construção de um projeto. Depois de criado, podemos transformá-lo em um projeto no qual já teremos a estrutura inicial produzida.
 
-****Ferramentas de Prototipagem: Figma; Ionic**
+**Ferramentas de Prototipagem: Figma; Ionic**
 
-****Figma:** O **Figma** é uma ferramenta, dentre muitas outras existentes, para prototipagem de sites web. Com esta ferramenta, você pode: Modificar a estrutura do site, cores, tamanhos, imagens, textos etc.; Criar uma navegabilidade (navegação) entre as telas e simular.; Simular como o site vai se comportar em todos os tipo de telas, tais como computadores, tablets e celulares.; Trabalhar em conjunto com outras pessoas, simultaneamente, no mesmo projeto.
+**Figma:** O **Figma** é uma ferramenta, dentre muitas outras existentes, para prototipagem de sites web. Com esta ferramenta, você pode: Modificar a estrutura do site, cores, tamanhos, imagens, textos etc.; Criar uma navegabilidade (navegação) entre as telas e simular.; Simular como o site vai se comportar em todos os tipo de telas, tais como computadores, tablets e celulares.; Trabalhar em conjunto com outras pessoas, simultaneamente, no mesmo projeto.
 
 Ao final da prototipação do projeto, você pode exportar o site e terá já construída toda sua estrutura. Agora, com toda esta etapa de construção adiantada, você pode trabalhar apenas na inteligência e programação do site.
 
-****Ionic:**
+**Ionic:**
