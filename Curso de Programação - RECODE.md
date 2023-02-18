@@ -80,15 +80,15 @@ Exemplo2: Já as linguagens de alto nível, como o **Fortran** ou **C**, prec
 
 Ao final da prototipação do projeto, você pode exportar o site e terá já construída toda sua estrutura. Agora, com toda esta etapa de construção adiantada, você pode trabalhar apenas na inteligência e programação do site.
 
-****Ionic:** Semelhante ao Figma, o **Ionic** traz elementos para construção de interfaces para smartphones em um mesmo projeto - interface para **Android** e **IOS (iPhone)** - bastando movimentar a chave para escolher qual sistema você quer simular. Além disso, assim como o Figma, você pode exportar a estrutura do projeto e iniciar com a interface gráfica já construída.
+**Ionic:** Semelhante ao Figma, o **Ionic** traz elementos para construção de interfaces para smartphones em um mesmo projeto - interface para **Android** e **IOS (iPhone)** - bastando movimentar a chave para escolher qual sistema você quer simular. Além disso, assim como o Figma, você pode exportar a estrutura do projeto e iniciar com a interface gráfica já construída.
 
-****Tinkercad:** Com ela podemos criar protótipos de **projetos de robótica**. Ela permite simular e testar todos os componentes eletrônicos como se fossem reais, inclusive o código e linguagem de programação do projeto. Ao ficar pronto, basta baixar o código e conectar os componentes reais. Esta ferramenta, diferente das anteriores, permite construir e testar todo o projeto. A plataforma também contém projetos abertos de outras pessoas, os quais você pode copiar e aprender mais!
+**Tinkercad:** Com ela podemos criar protótipos de **projetos de robótica**. Ela permite simular e testar todos os componentes eletrônicos como se fossem reais, inclusive o código e linguagem de programação do projeto. Ao ficar pronto, basta baixar o código e conectar os componentes reais. Esta ferramenta, diferente das anteriores, permite construir e testar todo o projeto. A plataforma também contém projetos abertos de outras pessoas, os quais você pode copiar e aprender mais!
 
 # 3. Ferramentas de Programação Visual:
 
 1️⃣ **Aprendizado Baseado em Comandos:** 
 
-▶️ ****Linguagem Logo:** É uma plataforma para ensino e aprendizado de lógica e linguagem de programação. À primeira vista, é bastante simples, mas ela ensina conceitos de comandos, parâmetros e procedimentos, que formam a base do funcionamento de todas as linguagens de programação.
+▶️ **Linguagem Logo:** É uma plataforma para ensino e aprendizado de lógica e linguagem de programação. À primeira vista, é bastante simples, mas ela ensina conceitos de comandos, parâmetros e procedimentos, que formam a base do funcionamento de todas as linguagens de programação.
 
 2️⃣ **Aprendizado Baseado em Blocos:** é a construção de algoritmos e lógica de programação por meio da utilização de blocos de montagem. Esses blocos possuem encaixes específicos de acordo com a função e relação entre os conceitos.
 
