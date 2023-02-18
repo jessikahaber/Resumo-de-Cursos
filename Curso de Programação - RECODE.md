@@ -80,4 +80,41 @@ Exemplo2: Já as linguagens de alto nível, como o **Fortran** ou **C**, prec
 
 Ao final da prototipação do projeto, você pode exportar o site e terá já construída toda sua estrutura. Agora, com toda esta etapa de construção adiantada, você pode trabalhar apenas na inteligência e programação do site.
 
-**Ionic:**
+****Ionic:** Semelhante ao Figma, o **Ionic** traz elementos para construção de interfaces para smartphones em um mesmo projeto - interface para **Android** e **IOS (iPhone)** - bastando movimentar a chave para escolher qual sistema você quer simular. Além disso, assim como o Figma, você pode exportar a estrutura do projeto e iniciar com a interface gráfica já construída.
+
+****Tinkercad:** Com ela podemos criar protótipos de **projetos de robótica**. Ela permite simular e testar todos os componentes eletrônicos como se fossem reais, inclusive o código e linguagem de programação do projeto. Ao ficar pronto, basta baixar o código e conectar os componentes reais. Esta ferramenta, diferente das anteriores, permite construir e testar todo o projeto. A plataforma também contém projetos abertos de outras pessoas, os quais você pode copiar e aprender mais!
+
+# 3. Ferramentas de Programação Visual:
+
+1️⃣ **Aprendizado Baseado em Comandos:** 
+
+▶️ ****Linguagem Logo:** É uma plataforma para ensino e aprendizado de lógica e linguagem de programação. À primeira vista, é bastante simples, mas ela ensina conceitos de comandos, parâmetros e procedimentos, que formam a base do funcionamento de todas as linguagens de programação.
+
+2️⃣ **Aprendizado Baseado em Blocos:** é a construção de algoritmos e lógica de programação por meio da utilização de blocos de montagem. Esses blocos possuem encaixes específicos de acordo com a função e relação entre os conceitos.
+
+****Ferramentas que utilizam o aprendizado em bloco:**** SCRATCH; CODE; BLOCKLY; APP INVENTOR.
+
+▶️ **SCRATCH e CODE**: Possui o objetivo de ensinar lógica de programação de forma mais visual, sem a necessidade de escrita. Em 2013, a organização **Code.org**, criou uma plataforma com a mesma finalidade, lançando “**A Hora do Código**” com atividades voltadas para o ensino de ciência da computação para crianças.
+
+As duas plataformas têm um funcionamento semelhante, usando a temática de games para ensinar a lógica de programação baseada em blocos, onde cada bloco da linguagem possui um comando separado e que podem ser agrupados livremente, caso se encaixem. As ferramentas permitem criar jogos elaborados e a aprender muitos dos conceitos da programação, além de permitir compartilhar e executar o jogo online.
+
+▶️ **BLOCKLY**: É uma biblioteca criada pelo Google, de código aberto, permitindo assim a utilização blocos para construção de diversas atividades, tal qual a criação de gráficos, formulários e diversas outras possibilidades. Diferentemente do **Scratch** e do **Code**, essa ferramenta é mais avançada, pois nos dá a possibilidade de integração com outras tecnologias de programação, permitindo a criação de blocos específicos para cada tipo de projeto.
+
+O **Blockly** permite criar e executar seus algoritmos em formato de blocos e a sua visualização, por exemplo: **visualizar como o código ficaria em diferentes liguagens de programação, como JavaScript, Python, PHP, Lua e Dart,** conforme a imagem abaixo.
+
+O **Blockly** é uma excelente ferramenta para aprendizado sobre o funcionamento e abordagem de diferentes linguagens de programação. Devido ao fato de ser uma biblioteca de código aberto, foi utilizada em diversos projetos para a construção de plataformas como o proprio **Code.org**
+ e o **App Inventor.**
+
+▶️ **APP INVENTOR**: Esta plataforma ([https://appinventor.mit.edu/](https://appinventor.mit.edu/)) possui um grande diferencial quando comparado às ferramentas anteriores, já que seu projeto é totalmente voltado para celulares, permitindo assim o desenvolvimento de aplicativos totalmente funcionais, rodando diretamente em celulares ou emuladores.
+
+Uma vez criados no **App Inventor**, esses aplicativos ficam limitados apenas a arquitetura do sistema operacional Android, por outro lado permite a integração com serviços Google e recursos tecnológicos embarcados nesses celulares, tais como:
+
+- Mapas
+- Sensores(GPS, Bússola, acelerômetro, etc)
+- Armazenamento
+- Bluetooth
+- Envio de SMS
+
+O **App Inventor**, por trabalhar com código aberto, serviu de base para a criação de outras plataformas concorrentes, como o **Thunkable** e o **Kodular**, que trouxe novas funcionalidades e recursos. As três plataformas voltadas ao desenvolvimento de aplicativos possuem o mesmo formato de funcionamento.
+
+# 4. Programando com App Inventor:
