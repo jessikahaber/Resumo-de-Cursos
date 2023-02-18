@@ -74,7 +74,7 @@ Exemplo2: Já as linguagens de alto nível, como o **Fortran** ou **C**, prec
 
 4️⃣ **Prototipagem:** Na área de **construção de sistemas**, antes de iniciar a **programação de um projeto**, usamos recursos para criar “**plantas**” e “**maquetes**” para  averiguar como o sistema vai ficar, antes de colocar a mão na massa. A criação de protótipos traz muitos pontos positivos, como o ganho de produtividade e agilidade na construção de um projeto. Depois de criado, podemos transformá-lo em um projeto no qual já teremos a estrutura inicial produzida.
 
-**Ferramentas de Prototipagem: Figma; Ionic**
+**Ferramentas de Prototipagem: Figma; Ionic; Tinkercad.**
 
 **Figma:** O **Figma** é uma ferramenta, dentre muitas outras existentes, para prototipagem de sites web. Com esta ferramenta, você pode: Modificar a estrutura do site, cores, tamanhos, imagens, textos etc.; Criar uma navegabilidade (navegação) entre as telas e simular.; Simular como o site vai se comportar em todos os tipo de telas, tais como computadores, tablets e celulares.; Trabalhar em conjunto com outras pessoas, simultaneamente, no mesmo projeto.
 
