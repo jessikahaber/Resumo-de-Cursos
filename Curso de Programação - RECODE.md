@@ -143,10 +143,15 @@ O **App Inventor**, por trabalhar com código aberto, serviu de base para a cri
 🔺 • operadores **relacionais (=):** Os operadores relacionais servem para **verificar uma relação entre 2 valores.** O operador relacional de igualdade é usado para **realizar uma comparação de igualdade** entre um valor e outro. **Todos os demais operadores relacionais**:
 
 • **Igualdade**: este já conhecemos, seu símbolo é o sinal de igual, uma ou duas vezes **(“=” ou “==”)**.
+
 • **Diferença ou desigualdade**: é o inverso da igualdade. Verifica se um valor não é igual a outro. Seus sinais são os símbolos de maior-menor juntos **(“<>”)** ou uma exclamação-igual **(“!=”)**.
+
 • **Menor**: verifica se um valor é menor que outro. Seu símbolo é o sinal de menor mesmo **(“<”)**.
+
 • **Maior**: verifica se um valor é maior que outro. Seu símbolo é o sinal de maior mesmo **(“>”)**.
+
 • **Menor ou igual**: verifica se um valor é menor ou igual a outro. Seu símbolo é um sinal de menor seguido de uma igualdade **(“<=”)**.
+
 • **Maior ou igual**: verifica se um valor é maior ou igual a outro. Seu símbolo é um sinal de maior seguido de uma igualdade **(“>=”)**.
 
 **Atenção**: Em outras linguagens de programação os operadores de atribuição e igualdade podem sofrer alterações, exemplo: 
