@@ -138,7 +138,7 @@ O **App Inventor**, por trabalhar com código aberto, serviu de base para a cri
 ▪ 3º multiplicação e divisão
 ▪ 4º soma e subtração
 
-🔺 • operadores de **atribuição (=):** São usados **para **atribuir um valor à um nome, que chamamos de variável**.
+🔺 • operadores de **atribuição (=):** São usados para **atribuir um valor à um nome, que chamamos de variável**.
 
 🔺 • operadores **relacionais (=):** Os operadores relacionais servem para **verificar uma relação entre 2 valores.** O operador relacional de igualdade é usado para **realizar uma comparação de igualdade** entre um valor e outro. **Todos os demais operadores relacionais**:
 
