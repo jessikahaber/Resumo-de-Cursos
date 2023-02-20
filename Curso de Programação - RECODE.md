@@ -145,7 +145,6 @@ O **App Inventor**, por trabalhar com código aberto, serviu de base para a cri
 • **Igualdade**: este já conhecemos, seu símbolo é o sinal de igual, uma ou duas vezes **(“=” ou “==”)**.
 • **Diferença ou desigualdade**: é o inverso da igualdade. Verifica se um valor não é igual a outro. Seus sinais são os símbolos de maior-menor juntos **(“<>”)** ou uma exclamação-igual **(“!=”)**.
 • **Menor**: verifica se um valor é menor que outro. Seu símbolo é o sinal de menor mesmo **(“<”)**.
-
 • **Maior**: verifica se um valor é maior que outro. Seu símbolo é o sinal de maior mesmo **(“>”)**.
 • **Menor ou igual**: verifica se um valor é menor ou igual a outro. Seu símbolo é um sinal de menor seguido de uma igualdade **(“<=”)**.
 • **Maior ou igual**: verifica se um valor é maior ou igual a outro. Seu símbolo é um sinal de maior seguido de uma igualdade **(“>=”)**.
@@ -173,3 +172,30 @@ Podemos executar trechos de códigos se uma condição for VERDADEIRA (TRUE) ou 
 Estes **operadores TRUE e FALSE** são chamados de **operadores booleanos** e podem funcionar como valores, como se fossem números. 
 
 O funcionamento do **operador NOT** é bem simples, **ele NEGA o conteúdo de um valor booleano**, ou seja, se o valor for TRUE, o NOT o transforma em FALSE e vice-versa. Exemplo: NOT TRUE = FALSE, e NOT FALSE = TRUE.
+
+🔴 **Variáveis e Constantes:**
+
+🔺 **Variáveis**: As variáveis são locais onde **podemos armazenar valores** e, como o nome diz, podem ser alterados ao longo do algoritmo, ou seja, podem ter seus valores variados, podem ter variação. As variáveis têm este nome pois há um outro tipo de armazenamento de valores que **não permitem a mudança de seu valor ao longo do código, são as chamados constantes**.
+
+🔺 **Constantes:** A constante **não permite alterar seu valor depois que definido**, mantendo os valores constantes, conforme seu nome.
+
+1️⃣ **Tipos de dados com o qual podemos trabalhar/armazenar:**
+
+• **Integer (inteiro)**: são os valores numéricos inteiros, sem vírgula decimal, tais como 10, 99, 1000, 9990 etc, assim como valores negativos, como -10, -999 etc.
+• **String (texto)**: são os valores compostos por letras ou números, escrito entre aspas, tais como “Roberto”, “Vôo 172”, “Hello World!” etc.
+• **Boolean (booleano ou lógico)**: podem assumir apenas 2 valores: TRUE ou FALSE, como já conhecemos.
+• **Float (real ou ponto flutuante)**: são os valores numéricos não inteiros, com casas decimais, tais como 10.98, 99.9, 1.0000098 etc, assim como seus valores negativos.
+
+Existem tipos de dados são chamados de **tipos primitivos**, isto significa que seu **funcionamento e uso** **será** exatamente **o mesmo em todas as linguagens de programação**.
+
+2️⃣ **Os valores armazenados nas variáveis podem ser inicializados, atribuídos ou requisitados**:
+
+• **Inicialização (inicialize)**: inicializações são atribuições que **ficam no início do código**. São pré-requisito para o funcionamento do restante do algoritmo.
+• **Atribuição (set)**: As atribuições acontecem **sempre que um valor é atribuído à uma variável**.
+• **Requisição (get)**: a requisição acontece **sempre que um valor armazenado dentro de uma variável é necessário em outro trecho do código**.
+
+🔴 **Procedimentos (*procedures*):** Os procedimentos ajuda tornando os **códigos menos repetitivos**. As procedures também podem receber valores para sua execução. Esses valores são **variáveis de entrada** e são chamadas de **parâmetros**. podem ser de 2 tipos:
+• **Com retorno (return)**: executa um trecho de código e retorna um valor ao terminar. Por exemplo, uma procedure pode ter um código para executar um cálculo e retornar seu resultado.
+• **Sem retorno**: apenas executa seu trecho de código. O uso de **procedures sem retorno** é mais simples, pois não possuem retorno (RETURN) e não precisam ser atribuídas (depois) de uma variável.
+
+🔴 **Listas: São vários dados numa mesma variável** usando listas.
