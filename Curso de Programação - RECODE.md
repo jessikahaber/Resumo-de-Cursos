@@ -135,11 +135,10 @@ O **App Inventor**, por trabalhar com código aberto, serviu de base para a cri
 
 ▪ 1º parênteses
 ▪ 2º potências e raízes
-
 ▪ 3º multiplicação e divisão
 ▪ 4º soma e subtração
 
-🔺 • operadores de **atribuição (=):** São usados ****para **atribuir um valor à um nome, que chamamos de variável**.
+🔺 • operadores de **atribuição (=):** São usados **para **atribuir um valor à um nome, que chamamos de variável**.
 
 🔺 • operadores **relacionais (=):** Os operadores relacionais servem para **verificar uma relação entre 2 valores.** O operador relacional de igualdade é usado para **realizar uma comparação de igualdade** entre um valor e outro. **Todos os demais operadores relacionais**:
 
@@ -155,12 +154,9 @@ O **App Inventor**, por trabalhar com código aberto, serviu de base para a cri
 
 | Linguagem de programação | Atribuição | Comparação de igualdade |
 | --- | --- | --- |
-| Delphi | Salário := 1000
-(dois pontos e igual) | Quantidade_Filhos = 0 |
-| Java | Salário = 1000 | Quantidade_Filhos == 0
-(2 sinais de igual) |
-| Shell Script | Salário = 1000 | Quantidade_Filhos eq 0
-(eq é sigla de equal, igual em inglês) |
+| Delphi | Salário := 1000 (dois pontos e igual) | Quantidade_Filhos = 0 |
+| Java | Salário = 1000 | Quantidade_Filhos == 0 (2 sinais de igual) |
+| Shell Script | Salário = 1000 | Quantidade_Filhos eq 0 (eq é sigla de equal, igual em inglês) |
 
 Esta **forma particular** que cada uma usa **para representar seus comandos** é **chamada de sintaxe**.
 
