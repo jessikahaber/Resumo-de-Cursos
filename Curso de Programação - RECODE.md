@@ -187,8 +187,11 @@ O funcionamento do **operador NOT** é bem simples, **ele NEGA o conteúdo de um
 1️⃣ **Tipos de dados com o qual podemos trabalhar/armazenar:**
 
 • **Integer (inteiro)**: são os valores numéricos inteiros, sem vírgula decimal, tais como 10, 99, 1000, 9990 etc, assim como valores negativos, como -10, -999 etc.
+
 • **String (texto)**: são os valores compostos por letras ou números, escrito entre aspas, tais como “Roberto”, “Vôo 172”, “Hello World!” etc.
+
 • **Boolean (booleano ou lógico)**: podem assumir apenas 2 valores: TRUE ou FALSE, como já conhecemos.
+
 • **Float (real ou ponto flutuante)**: são os valores numéricos não inteiros, com casas decimais, tais como 10.98, 99.9, 1.0000098 etc, assim como seus valores negativos.
 
 Existem tipos de dados são chamados de **tipos primitivos**, isto significa que seu **funcionamento e uso** **será** exatamente **o mesmo em todas as linguagens de programação**.
@@ -196,11 +199,15 @@ Existem tipos de dados são chamados de **tipos primitivos**, isto significa que
 2️⃣ **Os valores armazenados nas variáveis podem ser inicializados, atribuídos ou requisitados**:
 
 • **Inicialização (inicialize)**: inicializações são atribuições que **ficam no início do código**. São pré-requisito para o funcionamento do restante do algoritmo.
+
 • **Atribuição (set)**: As atribuições acontecem **sempre que um valor é atribuído à uma variável**.
+
 • **Requisição (get)**: a requisição acontece **sempre que um valor armazenado dentro de uma variável é necessário em outro trecho do código**.
 
 🔴 **Procedimentos (*procedures*):** Os procedimentos ajuda tornando os **códigos menos repetitivos**. As procedures também podem receber valores para sua execução. Esses valores são **variáveis de entrada** e são chamadas de **parâmetros**. podem ser de 2 tipos:
+
 • **Com retorno (return)**: executa um trecho de código e retorna um valor ao terminar. Por exemplo, uma procedure pode ter um código para executar um cálculo e retornar seu resultado.
+
 • **Sem retorno**: apenas executa seu trecho de código. O uso de **procedures sem retorno** é mais simples, pois não possuem retorno (RETURN) e não precisam ser atribuídas (depois) de uma variável.
 
 🔴 **Listas: São vários dados numa mesma variável** usando listas.
