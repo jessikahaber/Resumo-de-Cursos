@@ -118,3 +118,62 @@ Uma vez criados no **App Inventor**, esses aplicativos ficam limitados apenas 
 O **App Inventor**, por trabalhar com código aberto, serviu de base para a criação de outras plataformas concorrentes, como o **Thunkable** e o **Kodular**, que trouxe novas funcionalidades e recursos. As três plataformas voltadas ao desenvolvimento de aplicativos possuem o mesmo formato de funcionamento.
 
 # 4. Programando com App Inventor:
+
+**App Inventor**: É uma aplicação em nuvem, gratuita, onde você pode criar aplicativos para smartphones utilizando a linguagem de programação baseada em blocos. Este tipo de linguagem permite que você pense no problema e consiga resolvê-lo de forma bem simples: arrastando blocos de instruções um após o outro, ao invés de programar utilizando apenas texto de pseudocódigo ou até mesmo usando uma linguagem de programação real e complexa. Leia com atenção **O Guia de Criação de Apps**, no site: [https://www.androidpro.com.br/blog/desenvolvimento-android/app-inventor/](https://www.androidpro.com.br/blog/desenvolvimento-android/app-inventor/)
+
+**Configure o App Inventor**: [https://appinventor.mit.edu/explore/ai2/setup](https://appinventor.mit.edu/explore/ai2/setup)
+
+**Outros tutoriais com Projetos Práticos do App Inventor**: [https://appinventor.mit.edu/explore/ai2/tutorials](https://appinventor.mit.edu/explore/ai2/tutorials)
+
+**Atenção**: Primeiro faça a parte visual e depois a lógica de programação que fará o aplicativo ter inteligência. Estabeleça qual o objetivo principal do seu app.
+
+**Lógica Condicional:** Possui uma estrutura condicional, onde dependendo da decisão, um diferente bloco de instrução é executado. A lógica condicional tem a seguinte **estrutura**: **SE/IF, ENTÃO/THEN, SENÃO/ELSE**. Exemplo: Se a <**condição**> for considerada **verdadeira**, as instruções do primeiro bloco (ENTÃO/**THEN**) serão executadas. Se a <**condição**> for **falsa** (não é verdadeira), as instruções do segundo bloco (SENÃO/**ELSE**) serão executadas.
+
+🔴 **Classificação dos operadores**: 
+
+🔺 • operadores **aritméticos (+ (soma), - (subtração), * (multiplicação), / (divisão)):** o operador aritmético para **efetuar uma** **operação matemática.** Assim como na matemática, na programação os operadores seguem uma ordem de precedência para sua execução. A precedência de execução os operadores aritméticos seguem esta ordem: 
+
+▪ 1º parênteses
+▪ 2º potências e raízes
+
+▪ 3º multiplicação e divisão
+▪ 4º soma e subtração
+
+🔺 • operadores de **atribuição (=):** São usados ****para **atribuir um valor à um nome, que chamamos de variável**.
+
+🔺 • operadores **relacionais (=):** Os operadores relacionais servem para **verificar uma relação entre 2 valores.** O operador relacional de igualdade é usado para **realizar uma comparação de igualdade** entre um valor e outro. **Todos os demais operadores relacionais**:
+
+• **Igualdade**: este já conhecemos, seu símbolo é o sinal de igual, uma ou duas vezes **(“=” ou “==”)**.
+• **Diferença ou desigualdade**: é o inverso da igualdade. Verifica se um valor não é igual a outro. Seus sinais são os símbolos de maior-menor juntos **(“<>”)** ou uma exclamação-igual **(“!=”)**.
+• **Menor**: verifica se um valor é menor que outro. Seu símbolo é o sinal de menor mesmo **(“<”)**.
+
+• **Maior**: verifica se um valor é maior que outro. Seu símbolo é o sinal de maior mesmo **(“>”)**.
+• **Menor ou igual**: verifica se um valor é menor ou igual a outro. Seu símbolo é um sinal de menor seguido de uma igualdade **(“<=”)**.
+• **Maior ou igual**: verifica se um valor é maior ou igual a outro. Seu símbolo é um sinal de maior seguido de uma igualdade **(“>=”)**.
+
+**Atenção**: Em outras linguagens de programação os operadores de atribuição e igualdade podem sofrer alterações, exemplo: 
+
+| Linguagem de programação | Atribuição | Comparação de igualdade |
+| --- | --- | --- |
+| Delphi | Salário := 1000
+(dois pontos e igual) | Quantidade_Filhos = 0 |
+| Java | Salário = 1000 | Quantidade_Filhos == 0
+(2 sinais de igual) |
+| Shell Script | Salário = 1000 | Quantidade_Filhos eq 0
+(eq é sigla de equal, igual em inglês) |
+
+Esta **forma particular** que cada uma usa **para representar seus comandos** é **chamada de sintaxe**.
+
+🔺 • **Operadores Lógicos:** Os operadores lógicos são: E/**AND,** OU/**OR,** VERDADE/**TRUE,** FALSO/**FALSE, e** NÃO/**NOT**. 
+
+Os **operadores lógicos** AND (E) e OR (OU) funcionam para **verificar se uma expressão é verdadeira ou falsa** quando existem mais de uma condição que precisam ser testadas. Quando consideramos a expressão verdadeira, todos os outros resultados possíveis tornam-se falsos.
+
+No **operador AND**, **o resultado** da condição só **é verdadeiro** apenas **se todas as condições são verdadeiras**.
+
+No **operador OR,** o **resultado** da condição **é verdadeiro** **se pelo menos uma das condições seja verdadeira**, ou seja, o operador OR requer que apenas uma das respostas seja verdadeira, e **a expressão** **é falsa apenas quando todas as condições são falsas**.
+
+Podemos executar trechos de códigos se uma condição for VERDADEIRA (TRUE) ou outro trecho de código se a mesma condição for FALSA (FALSE) através da estrutura condicional. O IF sempre busca um valor verdadeiro para executar seu trecho de código contido em THEN, não sendo verdadeiro (valor falso) ele passa para o trecho contido em ELSE.
+
+Estes **operadores TRUE e FALSE** são chamados de **operadores booleanos** e podem funcionar como valores, como se fossem números. 
+
+O funcionamento do **operador NOT** é bem simples, **ele NEGA o conteúdo de um valor booleano**, ou seja, se o valor for TRUE, o NOT o transforma em FALSE e vice-versa. Exemplo: NOT TRUE = FALSE, e NOT FALSE = TRUE.
