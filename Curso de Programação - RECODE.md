@@ -220,19 +220,19 @@ Para armazenar vários valores numa única variável, **cada item da lista receb
 
 **Os principais conceitos de manipulação de listas**, são o da **criação**, a **adição** e a **remoção**:
 
-| [1] //criação e atribuição |
-| [2] Lista_Funcionários = [“Bruno”, “Luiz”, “Ana”] |
-| [3] |
-| [4] //adição de novo valor após a criação da lista |
-[5] Lista_Funcionários.Add(“Moisés”) |
-[6] |
-| [7] //removendo o segundo item da lista, “Luiz” (2º porque inicia em zero ;-) |
-[8] Lista_Funcionários.Remove[1] |
-[9] |
-| [10] //imprime os nomes |
-[11] print (Lista_Funcionários[0]) //imprime “Bruno” |
-[12] print (Lista_Funcionários[1]) //imprime “Ana” |
-[13] print (Lista_Funcionários[2]) //imprime “Moisés” |
+[1] //criação e atribuição
+[2] Lista_Funcionários = [“Bruno”, “Luiz”, “Ana”]
+[3] 
+[4] //adição de novo valor após a criação da lista 
+[5] Lista_Funcionários.Add(“Moisés”) 
+[6] 
+[7] //removendo o segundo item da lista, “Luiz” (2º porque inicia em zero ;-)
+[8] Lista_Funcionários.Remove[1]
+[9]
+[10] //imprime os nomes
+[11] print (Lista_Funcionários[0]) //imprime “Bruno”
+[12] print (Lista_Funcionários[1]) //imprime “Ana”
+[13] print (Lista_Funcionários[2]) //imprime “Moisés”
 
 **Atenção**: Para imprimir um valor, **é preciso usar o seu índice** para ter acesso a cada valor isoladamente. Como vimos, **as listas são armazenadas com um índice**, **sempre iniciando com zero,** isto significa que para saber qual é o último índice, basta lembrar que ele é o índice de número **n-1**, sendo “**n”** a quantidade de itens da lista. Por **exemplo**, numa lista com 400 itens, o número do último índice é 399 (resultado de 400 - 1).
 
