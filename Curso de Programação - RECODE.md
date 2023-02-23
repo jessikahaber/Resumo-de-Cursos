@@ -210,7 +210,6 @@ Existem tipos de dados são chamados de **tipos primitivos**, isto significa que
 
 • **Sem retorno**: apenas executa seu trecho de código. O uso de **procedures sem retorno** é mais simples, pois não possuem retorno (RETURN) e não precisam ser atribuídas (depois) de uma variável.
 
-🔴 **Listas: São vários dados numa mesma variável** usando listas.
 🔴 **Listas (array** ou **vetores): É um tipo de variável que pode armazenar vários valores**, ou seja, são vários dados em uma mesma variável usando listas. As listas, também são conhecidas como **array** ou **vetores**. **Todos os valores são separados por vírgula e ficam entre colchetes ou parêntesis**. Elas funcionam da seguinte forma: Lista_Funcionários = [“Bruno”, “Luiz”, “Ana”, “João”, “Moisés”]
 
 Para armazenar vários valores numa única variável, **cada item da lista recebe um índice, um número de posição na lista**, sempre **iniciando em zero**. 
@@ -221,9 +220,9 @@ Para armazenar vários valores numa única variável, **cada item da lista receb
 
 **Os principais conceitos de manipulação de listas**, são o da **criação**, a **adição** e a **remoção**:
 
-| [1] //criação e atribuição
-[2] Lista_Funcionários = [“Bruno”, “Luiz”, “Ana”]
-[3] |
+| [1] criação e atribuição
+| [2] Lista_Funcionários = [“Bruno”, “Luiz”, “Ana”]
+| [3] |
 | --- |
 | [4] //adição de novo valor após a criação da lista
 [5] Lista_Funcionários.Add(“Moisés”)
