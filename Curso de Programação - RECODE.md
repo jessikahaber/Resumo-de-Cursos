@@ -285,11 +285,11 @@ Vamos imaginar 2 situações. Na primeira, eu preciso saber apenas os dados da l
 
 A segunda situação é a seguinte: estou com uma empresa com 400 funcionários e todos estão numa lista. Eu preciso fazer uma auditoria nos dados destes funcionários, mas só em alguns. Então, posso programar meu loop for para ter um passo de 10. Assim, vou pegar o funcionário que está na posição 0, depois o funcionário que está na posição 10, o próximo que está na posição 20.
 
-![indice do loop FOR.png](Curso%20de%20Programac%CC%A7a%CC%83o%20-%20RECODE%20%F0%9F%92%BB%20d8522a8e2214403d9934ae882b94886b/indice_do_loop_FOR.png)
+![indice do loop FOR.png](https://github.com/jessikahaber/Resumo-de-Cursos-e-Dicas/blob/main/Banco%20de%20imagens/Curso%20de%20Programa%C3%A7%C3%A3o%20-%20RECODE/indice%20do%20loop%20FOR.png)
 
 O algoritmo FOR para este caso ficaria com a seguinte estrutura:
 
-![loop for estrutura do algoritmo.png](Curso%20de%20Programac%CC%A7a%CC%83o%20-%20RECODE%20%F0%9F%92%BB%20d8522a8e2214403d9934ae882b94886b/loop_for_estrutura_do_algoritmo.png)
+![loop for estrutura do algoritmo.png](https://github.com/jessikahaber/Resumo-de-Cursos-e-Dicas/blob/main/Banco%20de%20imagens/Curso%20de%20Programa%C3%A7%C3%A3o%20-%20RECODE/loop%20for%20estrutura%20do%20algoritmo.png)
 
 **As listas possuem um índice numérico e ordenado iniciando sempre em zero.  Os dicionários (dictionary) são listas onde seu índice pode ser identificado por texto ou número, que é conhecido como chave (key).**
 
