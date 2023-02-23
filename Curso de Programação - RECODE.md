@@ -220,11 +220,10 @@ Para armazenar vários valores numa única variável, **cada item da lista receb
 
 **Os principais conceitos de manipulação de listas**, são o da **criação**, a **adição** e a **remoção**:
 
-| [1] //criação e atribuição |
-| [2] Lista_Funcionários = [“Bruno”, “Luiz”, “Ana”] |
+| [1] //criação e atribuição
+| [2] Lista_Funcionários = [“Bruno”, “Luiz”, “Ana”]
 | [3] |
-| --- |
-| [4] adição de novo valor após a criação da lista
+| [4] //adição de novo valor após a criação da lista
 [5] Lista_Funcionários.Add(“Moisés”)
 [6] |
 | [7] //removendo o segundo item da lista, “Luiz” (2º porque inicia em zero ;-)
