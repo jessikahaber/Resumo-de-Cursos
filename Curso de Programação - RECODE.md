@@ -211,3 +211,76 @@ Existem tipos de dados são chamados de **tipos primitivos**, isto significa que
 • **Sem retorno**: apenas executa seu trecho de código. O uso de **procedures sem retorno** é mais simples, pois não possuem retorno (RETURN) e não precisam ser atribuídas (depois) de uma variável.
 
 🔴 **Listas: São vários dados numa mesma variável** usando listas.
+🔴 **Listas (array** ou **vetores): É um tipo de variável que pode armazenar vários valores**, ou seja, são vários dados em uma mesma variável usando listas. As listas, também são conhecidas como **array** ou **vetores**. **Todos os valores são separados por vírgula e ficam entre colchetes ou parêntesis**. Elas funcionam da seguinte forma: Lista_Funcionários = [“Bruno”, “Luiz”, “Ana”, “João”, “Moisés”]
+
+Para armazenar vários valores numa única variável, **cada item da lista recebe um índice, um número de posição na lista**, sempre **iniciando em zero**. 
+
+**As listas podem ser** de: nomes (strings), valores numéricos ou qualquer outro tipo, como valores mistos, armazenando textos, números, valores booleanos, todos misturados.
+
+**Manipulação**: das listas podem variar, isso porque a **manipulação** de seus dados **pode ser realizada de forma diferenciada de uma linguagem para outra**, mas todas seguem os mesmos **conceitos**.
+
+**Os principais conceitos de manipulação de listas**, são o da **criação**, a **adição** e a **remoção**:
+
+| [1] //criação e atribuição
+[2] Lista_Funcionários = [“Bruno”, “Luiz”, “Ana”]
+[3] |
+| --- |
+| [4] //adição de novo valor após a criação da lista
+[5] Lista_Funcionários.Add(“Moisés”)
+[6] |
+| [7] //removendo o segundo item da lista, “Luiz” (2º porque inicia em zero ;-)
+[8] Lista_Funcionários.Remove[1]
+[9] |
+| [10] //imprime os nomes
+[11] print (Lista_Funcionários[0]) //imprime “Bruno”
+[12] print (Lista_Funcionários[1]) //imprime “Ana”
+[13] print (Lista_Funcionários[2]) //imprime “Moisés” |
+
+**Atenção**: Para imprimir um valor, **é preciso usar o seu índice** para ter acesso a cada valor isoladamente. Como vimos, **as listas são armazenadas com um índice**, **sempre iniciando com zero,** isto significa que para saber qual é o último índice, basta lembrar que ele é o índice de número **n-1**, sendo “**n”** a quantidade de itens da lista. Por **exemplo**, numa lista com 400 itens, o número do último índice é 399 (resultado de 400 - 1).
+
+🔴 **Estruturas de Repetição:** 
+
+🔺 **Loops**: Loops significa **ciclo**. Por exemplo: um aparelho de CD, quando você coloca um disco, ele inicia tocando na faixa 1, depois passa para a faixa 2 e assim sucessivamente, até a última faixa do disco. O **ciclo desde a primeira faixa até a última é chamado de loop**.
+
+🔺 **Loop infinito**: **Enquanto não houver uma interrupção no loop, ele nunca vai ter fim**. Exemplo: Se você apertar a tecla “repeat” de seu aparelho de CD, assim que acabar a última música ele reinicia o ciclo e começa a tocar a primeira música do disco novamente. Isto nunca vai ter fim, sempre que chegar ao fim do disco ele volta para o início, por toda a vida.
+
+🔺 **Tipos de estruturas de repetição de Loops:**
+
+1️⃣ **Loop WHILE**: O loop **while** funciona exatamente igual a um CD com repeat, que continua seu ciclo (loop) **enquanto não houver** uma interrupção. **While significa enquanto** em inglês.
+
+Usamos o **loop while** quando **não sabemos** o número de eventos que precisam ser executados ou o número de dados de uma lista.
+
+**Precisa iniciar com uma pergunta** o código para que o loop inicie, afinal, precisa ter uma fila para iniciar o primeiro atendimento. Sem primeiro atendimento, o loop não inicia. Então, **a pergunta precisa ser feita antes e ao final do loop while**. A estrutura de repetição while serve para qualquer necessidade.
+
+**WHILE**: usamos para qualquer situação em que precisamos repetir algo até que uma condição seja satisfeita. Pode ser usada para ler dados de uma lista ou para qualquer outro trecho de código que precisa ser repetido.
+
+2️⃣ **Loop FOR EACH**: O **loop for each, significa para cada**, ele se assemelha muito com o play normal do aparelho de CD que, quando tem um CD de 15 músicas, inicia na primeira música e para na última. E pronto. **O loop for each não precisa de verificação de pergunta no começo e antes do final do loop como o while**. o loop for each funciona apenas para listas, pois ele faz uma iteração para cada um de seus itens.
+
+**FOR EACH**: usamos apenas para iterar (percorrer) itens de uma lista. Pudemos ver sua diferença com o FOR pois, para cada pasta da pilha de nosso exemplo, ele já tem os dados em si mesmo (Funcionário.Tem_Filhos).
+
+3️⃣ **Loop FOR**: O loop FOR é a estrutura de repetição mais organizada das 3 existentes, pois possui uma estrutura mais rígida que precisa ser seguida. **Seu ciclo de repetição é específico e limitado, com conhecimento prévio de quando inicia e quando termina**. 
+
+**FOR**: usamos para percorrer os índices de uma lista ou repetir um trecho de código quando sabemos exatamente a quantidade de vezes que precisam ser repetidas.
+
+O loop FOR precisa ser configurado com 3 informações, e possui o seguinte formato **for (de; até; passo)**. Vamos conhecer cada parte:
+• **de**: informação da posição com o qual **índice será iniciado**, ou seja, sua posição inicial.
+• **até**: informação da **posição final do** **índice**.
+• **passo**: são **os passos que o índice deve percorrer entre o início e o fim**.
+
+Exemplo de uma estrutura desse loop: **FOR (índice = 0; índice < 5; índice = índice + 1)**
+
+Com isso, o loop vai percorrer apenas nessa faixa, parando em 4.
+
+Vamos imaginar 2 situações. Na primeira, eu preciso saber apenas os dados da lista que estão nos índices pares. Para isso, posso simplesmente colocar o passo como índice = índice + 2. Como o índice inicia em zero, o próximo será o índice 2, o seguinte será o índice 4. Só números pares.
+
+A segunda situação é a seguinte: estou com uma empresa com 400 funcionários e todos estão numa lista. Eu preciso fazer uma auditoria nos dados destes funcionários, mas só em alguns. Então, posso programar meu loop for para ter um passo de 10. Assim, vou pegar o funcionário que está na posição 0, depois o funcionário que está na posição 10, o próximo que está na posição 20.
+
+![indice do loop FOR.png](Curso%20de%20Programac%CC%A7a%CC%83o%20-%20RECODE%20%F0%9F%92%BB%20d8522a8e2214403d9934ae882b94886b/indice_do_loop_FOR.png)
+
+O algoritmo FOR para este caso ficaria com a seguinte estrutura:
+
+![loop for estrutura do algoritmo.png](Curso%20de%20Programac%CC%A7a%CC%83o%20-%20RECODE%20%F0%9F%92%BB%20d8522a8e2214403d9934ae882b94886b/loop_for_estrutura_do_algoritmo.png)
+
+**As listas possuem um índice numérico e ordenado iniciando sempre em zero.  Os dicionários (dictionary) são listas onde seu índice pode ser identificado por texto ou número, que é conhecido como chave (key).**
+
+Quando usamos dicionários, as chaves e os valores andam sempre juntos, pois, como podemos perceber, um depende do outro para ter sentido. Eles andam sempre em pares, por isso seus itens são chamados **par chave-valor.**
