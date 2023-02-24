@@ -294,3 +294,12 @@ O algoritmo FOR para este caso ficaria com a seguinte estrutura:
 **As listas possuem um índice numérico e ordenado iniciando sempre em zero.  Os dicionários (dictionary) são listas onde seu índice pode ser identificado por texto ou número, que é conhecido como chave (key).**
 
 Quando usamos dicionários, as chaves e os valores andam sempre juntos, pois, como podemos perceber, um depende do outro para ter sentido. Eles andam sempre em pares, por isso seus itens são chamados **par chave-valor.**
+
+🔵 ****Os principais pontos abordados foram:****
+
+- Lógica Booleana e Algoritmo.
+- Sistema Binário.
+- Linguagem de programação e seus diferentes tipos.
+- Ferramentas de linguagem visual: Logo, Blockly, Scratch e Code.
+- Pensamento Computacional.
+- Programando com App Inventor.
