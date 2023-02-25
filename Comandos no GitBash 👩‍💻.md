@@ -2,11 +2,11 @@
 
 Site que mostra visualmente o que esta acontecendo quando você escreve um comando no GitBash: [https://learngitbranching.js.org/?locale=pt_BR](https://learngitbranching.js.org/?locale=pt_BR)
 
-🔴 **CRIANDO UM NOVO ARQUIVO:** 
+🔵 **CRIANDO UM NOVO ARQUIVO:** 
 
 🔺 **touch teste_1.txt** + enter = cria um novo arquivo.
 
-🔴 **REALIZANDO COMMIT LOCAL E DEPOIS PARA A NUVEM NO GITHUB:**
+🔵 **REALIZANDO COMMIT LOCAL E DEPOIS PARA A NUVEM NO GITHUB:**
 
 🔺 **git status** + enter = verifica se há algum arquivo novo pendente de commit, se houver irá aparecer escrito em vermelho, seguir as instruções a baixo.
 
@@ -19,7 +19,7 @@ nessa cor, tudo deve estar pronto para ser passado para a nuvem (github).
 
 🔺 **git push origin main** + enter = passar todos os arquivos que eu dei um commit localmente, para a nuvem (github).
 
-🔴 **CRIANDO UMA BRANCH NOVA:**
+🔵 **CRIANDO UMA BRANCH NOVA:**
 🔺 **git  branch teste** + enter = você criou uma nova branch chamada teste.
 
 🔺 **git branch** + enter = vai listar quantas branch você tem criada.
@@ -34,7 +34,7 @@ nessa cor, tudo deve estar pronto para ser passado para a nuvem (github).
 
 🔺 **git checkout -b teste2** + enter = Criando uma nova branch e no mesmo comando já seleciona a nova branch.
 
-🔴 **CRIANDO UM NOVO REPOSITÓRIO NA LINHA DE COMANDO:**
+🔵 **CRIANDO UM NOVO REPOSITÓRIO NA LINHA DE COMANDO:**
 echo "# teste" >> [README.md](http://readme.md/)
 git init
 git add [README.md](http://readme.md/)
@@ -43,7 +43,7 @@ git branch -M main
 git remote add origin [https://github.com/jessikahaber/teste.git](https://github.com/jessikahaber/teste.git)
 git push -u origin main
 
-🔴 **push UM REPOSITÓRIO EXISTENTE DA LINHA DE COMANDO:**
+🔵 **push UM REPOSITÓRIO EXISTENTE DA LINHA DE COMANDO:**
 git remote add origin [https://github.com/jessikahaber/teste.git](https://github.com/jessikahaber/teste.git)
 git branch -M main
 git push -u origin main
