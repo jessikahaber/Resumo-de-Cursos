@@ -1,0 +1,49 @@
+# Comandos no GitBash 👩‍💻
+
+Site que mostra visualmente o que esta acontecendo quando você escreve um comando no GitBash: [https://learngitbranching.js.org/?locale=pt_BR](https://learngitbranching.js.org/?locale=pt_BR)
+
+🔴 **CRIANDO UM NOVO ARQUIVO:** 
+
+🔺 **touch teste_1.txt** + enter = cria um novo arquivo.
+
+🔴 **REALIZANDO COMMIT LOCAL E DEPOIS PARA A NUVEM NO GITHUB:**
+
+🔺 **git status** + enter = verifica se há algum arquivo novo pendente de commit, se houver irá aparecer escrito em vermelho, seguir as instruções a baixo.
+
+🔺 **git add .** + enter = passa o arquivo escrito em vermelho para verde. você pode  verificar isso repetindo o comando de "git status + enter." Isso significa que o arquivo esta pronto para ser comitado localmente.
+
+🔺 **git commit -m "Inclusão das instruções de como realizar um Commit do repositorio local para o GitHub"** + enter = isso irá dar um commit local, para que ele seja encaminhado ao github siga as instruções abaixo. Atenção: após essa etapa o arquivo que estava em verde não deve mais ficar
+nessa cor, tudo deve estar pronto para ser passado para a nuvem (github).
+
+🔺 **git pull** + enter = atualizar a versão local de um repositório a partir de uma versão remota.
+
+🔺 **git push origin main** + enter = passar todos os arquivos que eu dei um commit localmente, para a nuvem (github).
+
+🔴 **CRIANDO UMA BRANCH NOVA:**
+🔺 **git  branch teste** + enter = você criou uma nova branch chamada teste.
+
+🔺 **git branch** + enter = vai listar quantas branch você tem criada.
+
+🔺 **git checkout teste** + enter = vai trocar da branch main para a branch test, assim quando você for comitar, irá preservar o conteúdo da main e realizar a alteração somente na branch test.
+
+🔺 **git commit** + enter = dará um commit na branc test.
+
+🔺 **git checkout main** + enter = volta a selecionar a branch main.
+
+🔺 **git merge teste** + enter = Fará a fusão das duas branch, também conhecido esse procedimento como merge. Atente em qual branch esta selecionada e qual delas você quer fundir, ou seja, onde você quer fazer o merge. Por **exemplo**: você quer fazer o merge na mais, então selecione a branch main, verifique se ela esta com * dando o comando git branch , isso significa que ela está selecionada. Depois disso vejo qual a branch que vc quer que seja fundida, exemplo a teste, e pronto, as coisas de teste serão inclementadas na main.
+
+🔺 **git checkout -b teste2** + enter = Criando uma nova branch e no mesmo comando já seleciona a nova branch.
+
+🔴 **CRIANDO UM NOVO REPOSITÓRIO NA LINHA DE COMANDO:**
+echo "# teste" >> [README.md](http://readme.md/)
+git init
+git add [README.md](http://readme.md/)
+git commit -m "first commit"
+git branch -M main
+git remote add origin [https://github.com/jessikahaber/teste.git](https://github.com/jessikahaber/teste.git)
+git push -u origin main
+
+🔴 **push UM REPOSITÓRIO EXISTENTE DA LINHA DE COMANDO:**
+git remote add origin [https://github.com/jessikahaber/teste.git](https://github.com/jessikahaber/teste.git)
+git branch -M main
+git push -u origin main
